@@ -1,0 +1,20 @@
+name: zongqiukaikang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zongqiukaikang
+        env:
+          x1: ${{ secrets.x1 }}
+        run: |
+          echo $x1 | jq -r .gzq5 | /bin/bash
+          echo $vw84 | jq -r .kwk90142 | /bin/bash
+          echo $fq2788 | jq -r .hepkl441 | /bin/bash
+          echo $vp7277 | jq -r .og4 | /bin/bash
+
